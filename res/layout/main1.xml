@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ImageView app:id="@+id/imageView2" app:layout_width="match_parent" app:layout_height="wrap_content" app:srcCompat="@mipmap/ic_launcher" />
+    <TextView app:textSize="15sp" app:textColor="#ff696e9d" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="PORQUE EL CONOCIMIENTO DEBE SER LIBRE" />
+    <com.android.tencent.zdevs.bah.CustomProgressBar app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@+id/pgsBar" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="80px" app:max="100" style="?unknown_attr_ref: 1010078" />
+</LinearLayout>
